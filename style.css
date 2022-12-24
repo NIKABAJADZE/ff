@@ -1,0 +1,104 @@
+.cover {
+    width: calc(100% - 64px);
+    height: calc(100vh - 64px);
+    margin: 32px auto 0 auto;
+    background-color: #818ABA;
+    padding: 39px 68px;
+    box-sizing: border-box;
+    border-radius: 40px; 
+    margin-bottom: 100px;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    width: 96px;
+    height: 35px;
+}
+nav {
+    min-width: 480px;
+}
+ul.main-navigation {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-navigation li a {
+    font-family: 'unbounded',cursive;
+    color: #666680;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 200;
+    text-decoration: none;
+}
+.main-navigation li a :hover {
+    color: white;
+    transition: 0.5s;
+}
+.header-btn {
+    background-color: #fff;
+    color: #524FD5;
+}
+.header-btn :hover {
+    opacity: 70%;
+    transition: 0.5s;
+}
+.button {
+    font-family: 'heebo',sans-serif;
+    padding: 18px 32px;
+    font-size: 18px;
+    border-radius: 73px;
+    text-decoration: none;
+}
+h1 {
+    font-family: 'Oswald',sans-serif;
+    font-size: 56px;
+    line-height: 71px;
+    color: #181B32;
+    font-weight: 300;
+}
+.cover-btn {
+    background-color: #524fd5;
+    color: white;
+    display: inline-block;
+    margin-top: 15px;
+}
+.cover-content-wrapper {
+    margin-top: 125px;
+    display: flex;
+}
+.section-2 p {
+    text-align: center;
+    font-family: 'Oswald',sans-serif;
+    color: #B0B0C0;
+    font-weight: 700px;
+    font-size: 48px;
+    text-transform: uppercase;
+    margin-bottom: 4px;
+}
+.section-2 h2 {
+    color: #181B32;
+    font-family: 'Oswald',sans-serif;
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 62px;
+    text-align: center;
+}
+.values-1 h3 {
+    font-family: 'Oswald',sans-serif;
+    text-align: center;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #181B32;
+    margin-bottom: 16px;
+}
+.logo-1 {
+    margin-left: 700px;
+    margin-top: -350px;
+    border-radius: 50px;
+    width: 400px;
+}
